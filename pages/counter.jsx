@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 
-const counter = () => {
-    const [count,setCount]=useState(0)
+const Counter = () => {
+    const [count,setCount]=useState(0);
   return (
     <div>
 
-        <h1>{count}</h1>
+        <h1>heloo:{count}</h1>
 
 
         <div>
@@ -21,4 +21,4 @@ const counter = () => {
   )
 }
 
-export default counter
+export default Counter;
